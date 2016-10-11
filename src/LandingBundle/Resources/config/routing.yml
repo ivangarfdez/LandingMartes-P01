@@ -1,0 +1,11 @@
+landing_homepage:
+    path:     /
+    defaults: { _controller: LandingBundle:Default:index }
+
+landing_ferrari:
+    path:     /ferrari
+    defaults: { _controller: LandingBundle:Default:ferrari }
+
+landing_lambo:
+    path:     /lambo
+    defaults: { _controller: LandingBundle:Default:lambo }
