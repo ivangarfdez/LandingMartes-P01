@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+
+    <h2> Vehiculo número:  {{ coche }} <h2>
+    {% if coche == 1 %}
+        <img src="{{ asset("img/ferrari.jpg") }}" alt=""/>
+    {% endif %}
+
+    {% if coche == 2 %}
+        <img src="{{ asset("img/lambo.jpg") }}" alt=""/>
+    {% endif %}
+
+{% endblock %}

@@ -10,12 +10,8 @@ class DefaultController extends Controller
     {
         return $this->render('LandingBundle:Default:index.html.twig');
     }
-    public function ferrariAction()
+    public function cocheAction($coche)
     {
-        return $this->render('LandingBundle:Default:ferrari.html.twig');
-    }
-    public function lamboAction()
-    {
-        return $this->render('LandingBundle:Default:lambo.html.twig');
+        return $this->render('LandingBundle:Default:coche.html.twig',array('coche'=>$coche));
     }
 }
